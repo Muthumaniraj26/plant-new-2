@@ -101,7 +101,7 @@ labels = [
 ]
 
 # Initialize Google Gemini API
-genai.configure(api_key="AIzaSyDwcgpwkYmpO7RELsxAXH_YeE-EOW1ipvk")
+genai.configure(api_key="API")
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Helper Functions
