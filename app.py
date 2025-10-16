@@ -379,7 +379,7 @@ labels = [
 ]
 
 # Initialize Google Gemini API
-genai.configure(api_key="AIzaSyAzKeQdOqZJo2Hmi2NpZ34jHDBgppkxwGU")
+genai.configure(api_key="GeminiAPI")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Register Unicode fonts using absolute paths
