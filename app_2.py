@@ -19,7 +19,7 @@ if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyCZR1L2JpvswkvJwcnKwr7sawKd0i0sxSM")
+genai.configure(api_key=" Gemini API")
 
 # Load the TFLite model
 interpreter = tflite.Interpreter(model_path="plant_disease_model.tflite")
